@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6927662C91E04600C68C15 /* SwiftRustBridgePrintlnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6927652C91E04600C68C15 /* SwiftRustBridgePrintlnApp.swift */; };
+		CF6927682C91E04600C68C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6927672C91E04600C68C15 /* ContentView.swift */; };
+		CF69276A2C91E04700C68C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6927692C91E04700C68C15 /* Assets.xcassets */; };
+		CF69276D2C91E04700C68C15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF69276C2C91E04700C68C15 /* Preview Assets.xcassets */; };
+		CF6927782C91E13C00C68C15 /* libswift_rust_bridge_println.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6927762C91E12E00C68C15 /* libswift_rust_bridge_println.a */; };
+		CF6927852C91E2BE00C68C15 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6927802C91E16A00C68C15 /* SwiftBridgeCore.swift */; };
+		CF6927862C91E2C300C68C15 /* swift-rust-bridge-println.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6927832C91E16A00C68C15 /* swift-rust-bridge-println.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF6927622C91E04600C68C15 /* SwiftRustBridgePrintln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRustBridgePrintln.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6927652C91E04600C68C15 /* SwiftRustBridgePrintlnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRustBridgePrintlnApp.swift; sourceTree = "<group>"; };
+		CF6927672C91E04600C68C15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF6927692C91E04700C68C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF69276C2C91E04700C68C15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF6927742C91E0B600C68C15 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		CF6927762C91E12E00C68C15 /* libswift_rust_bridge_println.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswift_rust_bridge_println.a; sourceTree = "<group>"; };
+		CF6927802C91E16A00C68C15 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridgeCore.swift; path = Generated/SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		CF6927812C91E16A00C68C15 /* SwiftBridgeCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftBridgeCore.h; path = Generated/SwiftBridgeCore.h; sourceTree = "<group>"; };
+		CF6927822C91E16A00C68C15 /* swift-rust-bridge-println.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-rust-bridge-println.h"; sourceTree = "<group>"; };
+		CF6927832C91E16A00C68C15 /* swift-rust-bridge-println.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift-rust-bridge-println.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF69275F2C91E04600C68C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6927782C91E13C00C68C15 /* libswift_rust_bridge_println.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6927592C91E04600C68C15 = {
+			isa = PBXGroup;
+			children = (
+				CF6927842C91E16A00C68C15 /* swift-rust-bridge-println */,
+				CF6927812C91E16A00C68C15 /* SwiftBridgeCore.h */,
+				CF6927802C91E16A00C68C15 /* SwiftBridgeCore.swift */,
+				CF6927742C91E0B600C68C15 /* BridgingHeader.h */,
+				CF6927642C91E04600C68C15 /* SwiftRustBridgePrintln */,
+				CF6927632C91E04600C68C15 /* Products */,
+				CF6927752C91E12E00C68C15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6927632C91E04600C68C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6927622C91E04600C68C15 /* SwiftRustBridgePrintln.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6927642C91E04600C68C15 /* SwiftRustBridgePrintln */ = {
+			isa = PBXGroup;
+			children = (
+				CF6927652C91E04600C68C15 /* SwiftRustBridgePrintlnApp.swift */,
+				CF6927672C91E04600C68C15 /* ContentView.swift */,
+				CF6927692C91E04700C68C15 /* Assets.xcassets */,
+				CF69276B2C91E04700C68C15 /* Preview Content */,
+			);
+			path = SwiftRustBridgePrintln;
+			sourceTree = "<group>";
+		};
+		CF69276B2C91E04700C68C15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF69276C2C91E04700C68C15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF6927752C91E12E00C68C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6927772C91E12E00C68C15 /* debug */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6927772C91E12E00C68C15 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				CF6927762C91E12E00C68C15 /* libswift_rust_bridge_println.a */,
+			);
+			name = debug;
+			path = ../target/universal/debug;
+			sourceTree = "<group>";
+		};
+		CF6927842C91E16A00C68C15 /* swift-rust-bridge-println */ = {
+			isa = PBXGroup;
+			children = (
+				CF6927822C91E16A00C68C15 /* swift-rust-bridge-println.h */,
+				CF6927832C91E16A00C68C15 /* swift-rust-bridge-println.swift */,
+			);
+			name = "swift-rust-bridge-println";
+			path = "Generated/swift-rust-bridge-println";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6927612C91E04600C68C15 /* SwiftRustBridgePrintln */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6927702C91E04700C68C15 /* Build configuration list for PBXNativeTarget "SwiftRustBridgePrintln" */;
+			buildPhases = (
+				CF6927732C91E08000C68C15 /* ShellScript */,
+				CF69275E2C91E04600C68C15 /* Sources */,
+				CF69275F2C91E04600C68C15 /* Frameworks */,
+				CF6927602C91E04600C68C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRustBridgePrintln;
+			productName = SwiftRustBridgePrintln;
+			productReference = CF6927622C91E04600C68C15 /* SwiftRustBridgePrintln.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF69275A2C91E04600C68C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF6927612C91E04600C68C15 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CF69275D2C91E04600C68C15 /* Build configuration list for PBXProject "SwiftRustBridgePrintln" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF6927592C91E04600C68C15;
+			productRefGroup = CF6927632C91E04600C68C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6927612C91E04600C68C15 /* SwiftRustBridgePrintln */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6927602C91E04600C68C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF69276D2C91E04700C68C15 /* Preview Assets.xcassets in Resources */,
+				CF69276A2C91E04700C68C15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF6927732C91E08000C68C15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./build-rust.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF69275E2C91E04600C68C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6927862C91E2C300C68C15 /* swift-rust-bridge-println.swift in Sources */,
+				CF6927852C91E2BE00C68C15 /* SwiftBridgeCore.swift in Sources */,
+				CF6927682C91E04600C68C15 /* ContentView.swift in Sources */,
+				CF6927662C91E04600C68C15 /* SwiftRustBridgePrintlnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF69276E2C91E04700C68C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF69276F2C91E04700C68C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF6927712C91E04700C68C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftRustBridgePrintln/Preview Content\"";
+				DEVELOPMENT_TEAM = RJXNW62ZYN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../target/universal/debug";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukweb.SwiftRustBridgePrintln;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF6927722C91E04700C68C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftRustBridgePrintln/Preview Content\"";
+				DEVELOPMENT_TEAM = RJXNW62ZYN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../target/universal/release";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukweb.SwiftRustBridgePrintln;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF69275D2C91E04600C68C15 /* Build configuration list for PBXProject "SwiftRustBridgePrintln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF69276E2C91E04700C68C15 /* Debug */,
+				CF69276F2C91E04700C68C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6927702C91E04700C68C15 /* Build configuration list for PBXNativeTarget "SwiftRustBridgePrintln" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6927712C91E04700C68C15 /* Debug */,
+				CF6927722C91E04700C68C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF69275A2C91E04600C68C15 /* Project object */;
+}
