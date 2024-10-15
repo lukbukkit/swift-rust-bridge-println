@@ -23,8 +23,8 @@ struct ContentView: View {
                 .padding()
             
             Button {
-                print("Hello from Swift before Rust invocation")
-                result = rustApp.rust.hello().toString()
+                print("Hello from Swift before Rust invocation")    // Does not cause a crash
+                result = rustApp.rust.hello().toString()            // Causes the crash (comment out this line to test)
                 print("Hello from Swift after Rust invocation")
                 counter += 1
             } label: {
